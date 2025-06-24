@@ -1,7 +1,13 @@
 
 
 :root {
-    --primary-color: #b0c7b5
+    --primary-color: #b0c7b5;
+    --gap: 3rem;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 2rem;
 }
 
 h1 {
@@ -41,8 +47,17 @@ h6 {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0;
+    padding: var(--gap)
 }
 
 body {
     background-color: var(--primary-color);
+}
+
+.section {
+    min-height: 100vh;
+}
+
+.menu {
+    background: rgb(255, 255, 255);
 }
