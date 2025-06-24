@@ -1,0 +1,56 @@
+body {
+    color: black;
+    background-color: darkseagreen;
+}
+
+.faixa-branca {
+    color: black;
+    background-color: white;
+}
+
+.opcoes-do-cliente {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+}
+
+.linha-separadora {
+    border: none;
+    height: 2px;
+    background-color: gray;
+    width: 100%;
+    margin: 10px auto;
+}
+
+.texto1 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 18px;
+    height: 16px;
+    
+}
+
+.subtitulo {
+    color: gray;
+    display: flex;
+    justify-content: center;
+}
+
+   .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px;
+   }
+
+   .foto1 {
+       width: 40%;
+   }
