@@ -1,0 +1,1 @@
+Secção de Georreferenciamento.
